@@ -1,0 +1,33 @@
+{
+  "task": "Fovea localization in retinal fundus images",
+  "train_images": 80,
+  "test_images": 20,
+  "cross_validation": {
+    "folds": 5,
+    "seed": 42,
+    "oof_rmse_pixels": 16.521610621138056,
+    "best_fold_rmse_pixels": [
+      11.236736297607422,
+      10.726128578186035,
+      8.082477569580078,
+      25.260791778564453,
+      20.495603561401367
+    ]
+  },
+  "test_submission": {
+    "images": 20,
+    "rows": 40,
+    "template_order_matches": true,
+    "coordinates_in_bounds": true,
+    "local_test_rmse": null
+  },
+  "kaggle_scores_from_user_screenshot": {
+    "public_score": 10.70534,
+    "private_score": 21.61345
+  },
+  "limitations": [
+    "No invisible (0, 0) samples were present in the training labels.",
+    "Test ground truth is unavailable locally.",
+    "Kaggle scores were transcribed from the user-provided screenshot."
+  ]
+}
